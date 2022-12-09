@@ -11,9 +11,9 @@ def nameRank(names, marks, updates, n):
             highest = x[j]
     print("Name: ", highest[0], ", Jump: ",
             abs(highest[2] - 1), sep="")
-names= ["sam", "ram", "geek"]
-marks = [80, 79, 75]
-updates = [0, 5, -9]
+names= ["Anubhav", "chetan", "vishal"]
+marks = [80, 79, 65]
+updates = [0, 5, 8]
 n = len(marks)
  
 nameRank(names, marks, updates, n)
